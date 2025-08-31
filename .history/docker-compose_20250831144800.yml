@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  chromadb:
+    image: chromadb/chroma   # fix typo: 'imgage' -> 'image'
+    ports:
+      - "8000:8000"           # fix indentation and key name
